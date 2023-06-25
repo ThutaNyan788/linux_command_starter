@@ -1,0 +1,69 @@
+Runlevels(systemd)
+===================
+
+systemctl list-units --type=target
+
+systemctl get-default
+
+systemctl isolate multi-user.target
+လက်ရှိသုံးနေရာကနေ အခြား mode ကိုပြောင်းတာ
+
+systemctl set-default multi-user.target
+
+systemctl set-default graphical.target
+
+reboot
+
+shutdown
+========================================================
+touch file1
+
+mkdir dir1
+
+ls -l 
+
+ls -l file1
+
+========================================================
+
+whoami and who and w -f 
+date 
+cal 
+cal 2023
+
+what is and which and type
+
+man and --help
+
+========================================================
+touch file{1,2,3}.txt
+mkdir dir{1,2,3}
+
+cp file1 dir1
+(cut)
+mv file2 dir2 
+(rename)
+mv file3 newfile
+
+(folder to folder)
+cp -r testfolder dir3
+
+(remove)
+rm -rf dir3
+
+ls -l dir4 
+(size)
+du -sh dir4 
+s = summarize 
+h = human readable
+(sorting)
+ls -lt 
+l = long format 
+t = sort by time 
+
+ls -l --sort=extension
+ls -l --group-directories-first
+(sort by size)
+ls -lhS
+ls -lhSr
+========================================================
